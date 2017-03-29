@@ -24,8 +24,6 @@ RSpec.describe User, type: :model do
 				user.save
 				expect(user.errors[:password]).to include("is too short (minimum is 6 characters)")
 			end		
-
-
 		end
 	end
 
@@ -37,6 +35,8 @@ RSpec.describe User, type: :model do
 	  	end
 
 	end
+
+
 
 	
 end
